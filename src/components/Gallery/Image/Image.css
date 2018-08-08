@@ -3,6 +3,7 @@
     width: 33%;
     height: 300px;
     margin: 2px 0;
+    overflow: hidden;
 }
 
 .Image {
@@ -10,11 +11,12 @@
     height: 100%;
     object-fit: cover;
     cursor: pointer;
-    transition: all .4s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .Image:hover {
     /*filter: hue-rotate(90deg);*/
+    transform: scale(1.1);
 }
 
 .Placeholder {
