@@ -1,0 +1,19 @@
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Description {
+    color: #FFF;
+    font-size: 12px;
+}

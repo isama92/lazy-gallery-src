@@ -1,0 +1,43 @@
+.Container {
+    position: relative;
+    width: 33%;
+    height: 300px;
+    margin: 2px 0;
+}
+
+.Image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.Image:hover {
+    /*filter: hue-rotate(90deg);*/
+}
+
+.Placeholder {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 719px) {
+    .Container {
+        width: 49.5%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .Container {
+        width: 100%;
+    }
+}
